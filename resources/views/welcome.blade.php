@@ -42,7 +42,7 @@
           <div class="col-sm-12"><h3>Search Results</h3></div>
         </div>
         <div class="row border-dark m-4">
-          @isset($data)
+        @isset($data)
           <div class="col-3"><h4>Country</h4></div>
           <div class="col-9">
             {{print_r($data[0]["Country"]["LocalizedName"])}}
